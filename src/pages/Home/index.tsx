@@ -42,7 +42,7 @@ export function Home() {
     reset()
   }
 
-  console.log(activeCycle)
+  // console.log(activeCycle)
 
   const task = watch('task')
   const isSubmitDisabled = !task
